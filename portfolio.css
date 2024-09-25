@@ -1,0 +1,252 @@
+body{
+    background-color: #1b1b1b;
+}
+.side-bar__top{
+    background-color:rgb(63, 47, 47) !important;
+    opacity: 0.3;
+    margin-left:76rem;
+    margin-top: 3rem;
+    width:9rem;
+    height:9rem;
+    top: -4rem;
+    position: absolute;
+    z-index: 1;
+  }
+  .img-top{
+    align-items: center;
+    justify-content: center;
+    margin-left: 3.5rem;
+    margin-top: 3rem;
+    color: #ffff !important;
+    z-index: 1;
+    
+  }
+  .side-bar__down{
+    background-color:rgb(63, 47, 47) !important;
+    opacity: 0.3;
+    margin-left:76rem;
+    /* margin-top: 1rem; */
+    width:9rem;
+    height:30rem;
+    position: absolute;
+    z-index: 1;
+    top: 9rem;
+  }
+  .icons{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    color: #ffff !important;
+    font-size: 2rem;
+    
+  }
+  .icon-home{
+    margin-top: 2rem;
+  }
+  .icon-user{
+    margin-top: 2rem ;
+  }
+  .icon-book{
+    margin-top: 2rem ;
+  }
+  .icon-shop{
+    margin-top: 2rem ;
+    color: #13E8E9;
+  }
+  .icon-plane{
+    margin-top: 2rem ;
+  }
+  .icon-mess{
+    margin-top: 2rem ;
+  }
+  .icons a{
+    color: #ffff;
+  }
+  .icons a:hover{
+    color: #13E8E9;
+  }
+  .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    margin-top: 3rem;
+    text-decoration: underline 2px #25ca7f;
+   
+  }
+  .filters{
+    width: 18rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    background-color: #1b1b1b;
+    box-shadow: 0 0 10px 0px rgba(255, 255, 255, .1);
+    display: inline-block; 
+    margin-left: 30rem;
+    margin-top: 3rem;
+    
+}
+.filter{
+    width: 4rem;
+    height: 2rem;
+    background-color:#1b1b1b;
+    color: #ffff;
+    border-radius: 2rem;
+    list-style-type: none;
+  
+    
+   
+}
+.filter:hover{
+    background-color: #25ca7f;
+    color: #1b1b1b;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+ul > li {
+    display: inline-block;
+    /* You can also add some margins here to make it look prettier */
+}
+.text{
+    position: absolute;
+    margin-left: 1.5rem;
+    /* margin-bottom: 1rem; */
+    /* bottom: 1rem; */
+    padding-bottom: 1rem;
+}
+li{
+    position: relative;
+}
+.re{
+    margin-left: 0.8rem;
+}
+.xc{
+    margin-left: 1rem;
+}
+/* .image img{
+    border-radius: 1rem;
+    width: 10rem;
+    height: 10rem;
+  
+} */
+.images{
+    display: flex;
+    flex-direction: column;
+    max-width: 10rem;
+}
+.im1{
+    border-radius: 1rem;
+    width: 22rem;
+    height: 14rem; 
+}
+.im2{
+    border-radius: 1rem;
+    width: 22rem;
+    height: 14rem; 
+}
+.im3{
+    border-radius: 1rem;
+    width: 22rem;
+    height: 19rem; 
+}
+.im4{
+    border-radius: 1rem;
+    width: 22rem;
+    height: 28rem; 
+}
+.im5{
+    border-radius: 1rem;
+    width: 22rem;
+    height: 28rem; 
+}
+.im6{
+    border-radius: 1rem;
+    width: 22rem;
+    height: 21rem;  
+}
+.im7{
+    border-radius: 1rem;
+    width: 22rem;
+    height: 23rem; 
+}
+.im8{
+    border-radius: 1rem;
+    width: 22rem;
+    height: 23rem; 
+}
+.im9{
+    border-radius: 1rem;
+    width: 22rem;
+    height: 28rem; 
+}
+.image1{
+    display: flex;
+    justify-content:flex-end;
+    margin-left: 38rem;
+    row-gap: 5rem;
+    margin-top: 4rem;
+    /* position: relative; */
+   
+}
+.image2{
+    display: flex;
+    justify-content:flex-end;
+    margin-left: 38rem;
+    row-gap: 5rem;
+    margin-top: 4rem;
+   /* align-items: flex-end; */
+   /* position: absolute; */
+}
+.image3{
+    display: flex;
+    justify-content:flex-end;
+    margin-left: 38rem;
+    row-gap: 5rem;
+    margin-top: 4rem;
+}
+/* .a1{
+    padding-right: 59rem;
+} */
+.a2{
+    margin-left: 2.5rem;
+}
+.a1{
+    margin-left: 4.5rem;
+}
+.a3{
+    margin-left: 2.5rem
+}
+.b2{
+    margin-left: 2.5rem;
+}
+.b1{
+    margin-left: 4.5rem;
+}
+.b3{
+    margin-left: 2.5rem
+}
+.c2{
+    margin-left: 2.5rem;
+}
+.c1{
+    margin-left: 4.5rem;
+}
+.c3{
+    margin-left: 2.5rem
+}
+/* .a1:hover{
+    border-radius: 1rem;
+    width: 22rem;
+    height: 14rem; 
+    background:linear-gradient(rgba(6, 71, 90, 0.6),rgba(59, 156, 201, 0.6)),url(img-3.jpg)no-repeat center;
+    background-size: cover;
+    
+} */
+ .image:hover{
+cursor: pointer;
+ }
+
+
+
