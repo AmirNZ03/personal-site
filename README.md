@@ -1,9 +1,10 @@
 # personal-site Repo
 __
 
-<p>This id Repo for personal site</p>
+<p>This is Repo for personal site</p>
 __
 #default usage
+
 -HTML5
 -CSS
 -Javascript
